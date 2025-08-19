@@ -1,0 +1,39 @@
+# NLP Conversational Chatbot Requirements
+
+# Core NLP libraries
+nltk>=3.6
+
+# Optional: for enhanced functionality
+# numpy>=1.19.0          # For numerical operations
+# scikit-learn>=0.24.0   # For advanced NLP features
+
+# ====================
+# File: .gitignore
+# ====================
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# User data files
+user_data.json
+user_data.json.bak
+
+# NLTK data (downloaded separately)
+nltk_data/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+venv/
+env/
+.env
